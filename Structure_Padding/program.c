@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 
-//#pragma pack(1)	// char		// Working as expected
+//#pragma pack(1)	// char		// Working as expected.....
 //#pragma pack(2)	// short	// Working as expected
 //#pragma pack(4)	// int		// Default okay
 //#pragma pack(8)	// long			// Working
