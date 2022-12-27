@@ -10,8 +10,8 @@
 
 
 // Structure Padding 
-//#pragma pack(1)	// char		// Working
-//#pragma pack(2)	// short	// Working
+//#pragma pack(1)	// char		// Working fine
+//#pragma pack(2)	// short	// Working fine
 #pragma pack(4)	// int		// Default
 //#pragma pack(8)	// long		// Working
 
@@ -23,6 +23,7 @@ int Num1;
 int Num2;
 int Num3;
 int Num4;
+int Num5;
 int Ans;
 
 };
