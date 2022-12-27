@@ -7,7 +7,7 @@
 //#pragma pack(1)	// char		// Working as expected.....
 //#pragma pack(2)	// short	// Working as expected
 //#pragma pack(4)	// int		// Default okay
-//#pragma pack(8)	// long			// Working
+//#pragma pack(8)	// long			// Working fine
 
 
 
@@ -21,6 +21,7 @@ struct record1{
 	int intvar;
 	long longvar;
 	float floatvar;
+	int dummy;
 };
 #pragma pack(pop)
 
